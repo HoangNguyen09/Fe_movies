@@ -40,7 +40,5 @@ use API
 
 HoangNguyen09 - [nguyenkhachoang51@gmail.com](mailto:nguyenkhachoang51@gmail.com)
 
-| <a href="https://github.com/HoangNguyen09"><img src="https://avatars.githubusercontent.com/u/76200314?v=4" width="30"></a> | 
-| --- | --- | --- |
-
+| <a href="https://github.com/HoangNguyen09"><img src="https://avatars.githubusercontent.com/u/76200314?v=4" width="30"></a> |
 
