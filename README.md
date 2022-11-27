@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-    <a href="https://movies-multiverse.netlify.app/"><img src="https://github.com/therogersak/movies/blob/main/movies_1.png?raw=true" alt="Logo" width="100%"></a>
+    <a href="https://movies-multiverse.netlify.app/"><img src="https://i.imgur.com/b1wHtIF.jpg" alt="Logo" width="100%"></a>
 </p>
 
 
@@ -18,10 +18,10 @@ With the terminal available, follow the instructions below:
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/therogersak/movies_clone_with_react-js
+$ git clone https://github.com/HoangNguyen09/Fe_movies.git
 
 # Access the movies folder
-$ cd movies_clone_with_react-js
+$ cd Fe_movies
 
 # Install dependencies
 $ npm install
@@ -33,19 +33,14 @@ $ npm start
 ```
 ### Observation
 
-To use themoviedb.org API, you must register and obtain an access key, which is necessarily used in the application.
+use API
 
 
 ## Contact
 
-the Rogers ak - [therogersak@gmail.com](mailto:therogersak@gmail.com)
+HoangNguyen09 - [nguyenkhachoang51@gmail.com](mailto:nguyenkhachoang51@gmail.com)
 
-| <a href="https://github.com/therogersak"><img src="https://cdn.iconscout.com/icon/free/png-512/github-153-675523.png" width="30"></a> | <a href="https://www.linkedin.com/in/therogersak/"><img src="https://cdn-icons.flaticon.com/png/512/3536/premium/3536505.png?token=exp=1658541589~hmac=b49b6b398d5d4c1cf356059e84ad2ed8" width="30"></a> | <a href="mailto:therogersak@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" width="30"></a> | 
+| <a href="https://github.com/HoangNguyen09"><img src="https://avatars.githubusercontent.com/u/76200314?v=4" width="30"></a> | 
 | --- | --- | --- |
 
-## License
 
-This project is under the MIT license.
-
-> Developed by [therogersak](https://www.linkedin.com/in/therogersak).
-<br/>
