@@ -1,0 +1,128 @@
+.home {
+  flex: 0.7;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: var(--five-color);
+  height: 100vh;
+}
+
+.home::-webkit-scrollbar {
+  display: none;
+  width: 100%;
+}
+
+.home__box,
+.home__boxx {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow-x: scroll;
+  height: 350px;
+  overflow-y: hidden;
+  margin: 0 20px;
+}
+
+.home__boxx {
+  height: 250px;
+}
+
+.home__box::-webkit-scrollbar,
+.home__boxx::-webkit-scrollbar {
+  display: none;
+}
+
+.home .heading {
+  padding-left: 20px;
+  font-size: 18px;
+  color: var(--four-color);
+  margin: 20px 0;
+  position: relative;
+}
+
+.home .heading::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8px;
+  background: var(--second-color);
+  width: 3px;
+  height: 100%;
+}
+
+.movie__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie__name {
+  white-space: nowrap;
+}
+
+.movie__name h3 {
+  margin: 5px 0;
+  color: var(--four-color);
+  font-size: 14px;
+}
+
+.movie__other {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie__other p:nth-child(1) {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  gap: 8px;
+  color: var(--four-color);
+}
+
+.movie__other span {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: gold;
+}
+
+.movie__other p:nth-child(2) {
+  font-size: 12px;
+  padding: 2px;
+  color: var(--four-color);
+  text-transform: capitalize;
+  border: 1px solid gray;
+}
+
+@media (max-width: 1000px) {
+  .home {
+    flex: 1;
+  }
+}
+
+@media (max-width: 400px) {
+  .home__boxx {
+    height: 370px;
+  }
+}
+
+.top__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+.top__heading span {
+  display: none;
+}
+
+.top__heading span .MuiSvgIcon-root {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .top__heading span {
+    display: block;
+  }
+}

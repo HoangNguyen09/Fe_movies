@@ -1,0 +1,26 @@
+.bgr {
+    width: 100%;
+    height: 100%;
+    display: grid;
+        grid-template-columns: 33% 33% 33%;
+}
+
+.border {
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+    background-color: rgb(85, 85, 85);
+    box-shadow: 0px 0px 5px 5px rgb(128, 128, 128);
+}
+
+.border > Tab:active {
+    color: red;
+}
+
+.border-dangnhap {
+    text-align: center;
+    display: grid;
+        grid-template-columns: 10% 80% 10%;
+}

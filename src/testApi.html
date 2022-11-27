@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Test API</title>
+</head>
+<body onload="getMovie()">
+
+<table 
+    id="table"
+    border="1"
+    cellPadding="15"
+    cellSpacing="0"
+>
+</table>
+
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+
+<script>
+
+    let movie = []
+
+    async function getMovie(){
+        try {
+            let datamovie = await axios.get("http://localhost:5550/api/v1/movie")
+            console.log(datamovie)
+            movie = datamovie.data
+            console.log(movie)
+            renderMovie()
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
+    function renderMovie(){
+        let element = `<tr>
+            <th>ID</th>
+            <th>Name</th>
+        </tr>`
+
+        movie.data.map(value => {
+            element += `<tr>
+            <td>${value.id}</td>
+            <td>${value.background}</td>
+        </tr>`
+        })
+        document.getElementById("table").innerHTML = element
+    }
+
+</script>
+
+</body>
+</html>

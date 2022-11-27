@@ -1,0 +1,39 @@
+.favorite{
+    background: var(--five-color);
+    width: 100%;
+    height: 100vh;
+}
+
+.fav__box{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 20px;
+    overflow-y:scroll ;
+}
+
+.fav__box::-webkit-scrollbar{
+    display: none;
+    scroll-behavior: smooth;
+}
+
+.fav__box img{
+    max-height: 200px;
+}
+
+.fav__box .moviesRow{
+    flex: 1 1 0;
+}
+
+@media (max-width:350px) {
+    .fav__box .moviesRow{
+        flex: 1;
+    }
+
+    .fav__box .moviesRow img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
